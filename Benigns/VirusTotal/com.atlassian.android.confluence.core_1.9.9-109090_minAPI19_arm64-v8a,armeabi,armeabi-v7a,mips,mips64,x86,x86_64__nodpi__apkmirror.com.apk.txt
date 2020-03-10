@@ -1,0 +1,1 @@
+{u'response_code': 0, u'resource': u'12551968f6b192a1941300f62a8b59d27dfde2878f318963be6e1b11ff7c53b2', u'verbose_msg': u'The requested resource is not among the finished, queued or pending scans'}
