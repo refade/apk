@@ -1,0 +1,1 @@
+{u'response_code': -2, u'resource': u'efa7387654ddddd557a8885fd28daed9ab2de194b899b2210206d525f473eff7', u'scan_id': u'efa7387654ddddd557a8885fd28daed9ab2de194b899b2210206d525f473eff7', u'verbose_msg': u'Your resource is queued for analysis'}
