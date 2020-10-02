@@ -31,7 +31,7 @@ As for the false negatives, BitDefender, Baidu and Panda antiviruses, wrongly st
 
 Acronis, eScan, Palo Alto Networks, Sophos AV-Sophos, SentinelOne (Static-ML), SecureAge APEX, CrowdStrike Falcon, Sangfor Engine Zero, Sophos ML and Trapmine antivirus companies have not omitted opinion on any of the 1600 samples malicious. Therefore, about 13% of antivirus softwares were not able to diagnose any of the malicious samples. On average, the antiviruses were missing in 24.06% of the cases, with a standard deviation of 41.33. The omission of the diagnosis points to the limitation of these antiviruses that have limited blacklists for detection of malware in real time.
 
-It is included as adversity, in the combat to malicious applications, the fact of the commercial antiviruses do not possess a pattern in the classification of the malwares as seen in Table 3. We choose 3 of 1600 REWEMA malwares samples in order to exemplify the miscellaneous classifications of commercial antiviruses. The chosen malware are Backdoor.IRC.Darkirc.exe, Backdoor.Win32.Zomby.exe e Constructor.VBS.Alamar.20.exe. In this way, the time when manufacturers react to a new virtual plague is affected dramatically. As there is no a pattern, antiviruses give the names that they want, for example, a company can identify a malware as "Malware.1" and a second company identify it as "Malware12310". Therefore, the lack of a pattern, besides the no-sharing of information among the antivirus manufacturers, hinders the fast and effective detection of a malicious application.
+It is included as adversity, in the combat to malicious applications, the fact of the commercial antiviruses do not possess a pattern in the classification of the malwares as seen in Table 3. We choose 3 of 1600 REWEMA malwares samples in order to exemplify the miscellaneous classifications of commercial antiviruses. The chosen malware are VirusShare_0d1b1736b6b210f5e036c35278db4fbc, VirusShare_0d2ca61588afc2c98798333dae466775 and VirusShare_0d00ec451b1aa695055f43e355442c89. In this way, the time when manufacturers react to a new virtual plague is affected dramatically. As there is no a pattern, antiviruses give the names that they want, for example, a company can identify a malware as "Malware.1" and a second company identify it as "Malware12310". Therefore, the lack of a pattern, besides the no-sharing of information among the antivirus manufacturers, hinders the fast and effective detection of a malicious application.
 
 ###### Table 2 Results of 77 commercial antiviruses:
 
@@ -118,3 +118,79 @@ Trapmine |	0% |	0% |	100%
 
 ###### Table 3 Miscellaneous classifications of commercial antiviruses:
 
+Antivírus |	VirusShare_0d1b1736b6b210f5e036c35278db4fbc |	VirusShare_0d2ca61588afc2c98798333dae466775 |	VirusShare_0d00ec451b1aa695055f43e355442c89
+--------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------
+AegisLab |	Riskware.AndroidOS.SMSreg.z!c |	Riskware.AndroidOS.SMSreg.z!c |	Riskware.AndroidOS.SMSreg.z!c
+AhnLab-V3 |	PUP/Android.Pornpay.860177 |	PUP/Android.SmsPay.675046 |	PUP/Android.Agent.839002
+Alibaba |	TrojanDownloader:Android/Script.fc08bb61 |	RiskWare:Android/SMSreg.9e7f3340 |	TrojanDropper:Android/SMSreg.815315e2
+Avast |	Android:Uten-DC [Trj] |	Undetected |	Android:Revo-OU [Trj]
+Avast-Mobile |	Android:Evo-gen [Trj] |	APK:RepMetagen [Trj] |	Android:Evo-gen [Trj]
+AVG |	Android:Uten-DC [Trj] |	Undetected |	Android:Revo-OU [Trj]
+Avira (no cloud) |	ANDROID/Drop.Agent.CGXG.Gen |	ANDROID/Agent.24855 |	ANDROID/Agent.24856
+CAT-QuickHeal |	Android.Smsreg.EJ (PUP) |	Android.Smsreg.EJ (PUP) |	Android.Smsreg.EJ (PUP)
+Comodo |	Malware@#3iexty6ejjbdy |	Malware@#2tz9di205snxp |	Malware@#1lbqrkmiht3qa
+Cyren |	AndroidOS/SMSThief.Q.gen!Eldorado |	Undetected |	Trojan.PDXU-0
+DrWeb |	Android.Triada.236.origin |	Android.Triada.236.origin |	Android.Triada.236.origin
+ESET-NOD32 |	A Variant Of Android/SMSreg.AFP Potentially Unsafe |	A Variant Of Android/Agent.BHM |	A Variant Of Android/Agent.BHM
+F-Secure |	- |	Malware.ANDROID/Agent.24855 |	Malware.ANDROID/Agent.24856
+Fortinet |	Riskware/Generic.Z.8F71AC!Android |	Android/Generic.Z.7C620A!tr |	Undetected
+Ikarus |	Trojan.AndroidOS.SmsSpy |	Trojan-Dropper.AndroidOS.Shedun |	Trojan-Dropper.AndroidOS.Shedun
+Jiangmin |	RiskTool.AndroidOS.eqyb |	RiskTool.AndroidOS.fdgc |	RiskTool.AndroidOS.fdlp
+K7GW |	Trojan ( 0054e2a51 ) |	Trojan ( 00536a311 ) |	Trojan ( 00536a311 )
+Kaspersky |	Not-a-virus:HEUR:RiskTool.AndroidOS.SMSreg.pf |	Not-a-virus:HEUR:RiskTool.AndroidOS.SMSreg.pf |	Not-a-virus:HEUR:RiskTool.AndroidOS.SMSreg.pf
+MAX |	Malware (ai Score=97) |	Malware (ai Score=98) |	Malware (ai Score=98)
+McAfee |	Artemis!0D1B1736B6B2 |	Artemis!0D2CA61588AF |	Artemis!0D00EC451B1A
+McAfee-GW-Edition	| RDN/Generic.gjk	| Artemis!PUP |	RDN/Generic.gjk
+Microsoft |	Trojan:Win32/Vigorf.A |	PUA:Win32/Presenoker |	PUA:Win32/Presenoker
+NANO-Antivirus |	Trojan.Android.Agent.dyqpps |	Riskware.Android.Triada.fdrslz |	Trojan.Android.MLW.ebzlbe
+Qihoo-360 |	Trojan.Android.Gen |	Trojan.Android.Gen	| Trojan.Android.Gen
+Sophos AV |	Android SmsPay (PUA) |	Andr/Rootnik-AI |	Andr/Rootnik-AI
+Symantec Mobile Insight |	Trojan:Malapp |	AppRisk:Generisk |	Other:Android.Reputation.1
+Tencent |	A.payment.movers |	A.gray.StealMoneyGame | A.payment.movers
+TrendMicro-HouseCall |	TROJ_GEN.R002H06L919 |	Undetected	| TROJ_GEN.R002H06L919
+Trustlook | Android.Malware.General (score:9) |	Android.Malware.General (score:9) |	Android.Malware.General (score:9)
+ZoneAlarm by Check Point	| Not-a-virus:HEUR:RiskTool.AndroidOS.SMSreg.pf |	Not-a-virus:HEUR:RiskTool.AndroidOS.SMSreg.pf |	Not-a-virus:HEUR:RiskTool.AndroidOS.SMSreg.pf
+Ad-Aware |	Undetected |	Undetected |	Undetected
+ALYac |	Undetected |	Undetected |	Undetected
+Antiy-AVL |	Undetected |	Undetected |	Undetected
+Arcabit |	Undetected |	Undetected |	Undetected
+Baidu |	Undetected |	Undetected |	Undetected
+BitDefender |	Undetected |	Undetected |	Undetected
+BitDefenderTheta |	Undetected |	Undetected |	Undetected
+Bkav |	Undetected |	Undetected |	Undetected
+ClamAV	| Undetected |	Undetected |	Andr.Dropper.Smspay-6840229-0
+CMC |	Undetected |	Undetected | Undetected
+Emsisoft |	Undetected |	Undetected |	Undetected
+eScan |	Undetected |	Undetected |	Undetected
+F-Prot |	Undetected |	Undetected |	Undetected
+FireEye	| Undetected |	Undetected |	Undetected
+Gdata |	Undetected |	Undetected |	Undetected
+K7AntiVirus	| Undetected |	Undetected |	Undetected
+Kingsoft |	Undetected |	Undetected |	Undetected
+Malwarebytes |	Undetected |	Undetected |	Undetected
+MaxSecure |	Undetected |	Undetected |	Undetected
+Panda	| Undetected |	Undetected |	Undetected
+Rising |	Undetected	| Undetected |	Undetected
+Sangfor Engine Zero |	Undetected |	Undetected |	Undetected
+SentinelOne (Static ML) |	Undetected |	Undetected |	Undetected
+SUPERAntiSpyware |	Undetected |	Undetected |	Undetected
+TACHYON |	Undetected |	Undetected |	Undetected
+TotalDefense |	Undetected |	Undetected |	Undetected
+TrendMicro |	Undetected |	Undetected |	Undetected
+VBA32 |	Undetected |	Undetected |	Undetected
+VIPRE |	Undetected |	Undetected |	Undetected
+ViRobot |	Undetected |	Undetected |	Undetected
+Yandex |	Undetected |	Undetected |	Undetected
+Zillya |	Undetected |	Undetected |	Undetected
+Zoner |	Undetected |	Undetected |	Undetected
+Acronis |	Unable to process file type |	Unable to process file type |	Unable to process file type
+SecureAge APEX |	Unable to process file type |	Unable to process file type |	Unable to process file type
+CrowdStrike Falcon |	Unable to process file type	| Unable to process file type |	Unable to process file type
+Cybereason |	Unable to process file type |	Unable to process file type	| Unable to process file type
+Cylance |	Unable to process file type |	Unable to process file type |	Unable to process file type
+eGambit |	Unable to process file type |	Unable to process file type |	Unable to process file type
+Endgame |	Unable to process file type |	Unable to process file type |	Unable to process file type
+Palo Alto Networks |	Unable to process file type |	Unable to process file type |	Unable to process file type
+Sophos ML |	Unable to process file type |	Unable to process file type |	Unable to process file type
+Trapmine |	Unable to process file type |	Unable to process file type |	Unable to process file type
+Webroot |	Unable to process file type |	Unable to process file type	| Unable to process file type
