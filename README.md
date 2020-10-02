@@ -114,3 +114,7 @@ CrowdStrike Falcon |	0% |	0% |	100%
 Sangfor Engine Zero |	0% |	0% |	100%
 Sophos ML |	0% |	0% |	100%
 Trapmine |	0% |	0% |	100%
+
+
+###### Table 3 Miscellaneous classifications of commercial antiviruses:
+
