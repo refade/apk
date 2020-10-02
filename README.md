@@ -194,3 +194,10 @@ Palo Alto Networks |	Unable to process file type |	Unable to process file type |
 Sophos ML |	Unable to process file type |	Unable to process file type |	Unable to process file type
 Trapmine |	Unable to process file type |	Unable to process file type |	Unable to process file type
 Webroot |	Unable to process file type |	Unable to process file type	| Unable to process file type
+
+
+## Materials and Methods
+
+This paper proposes a database aiming at the classification of Android benign and malware executables. The database is referred to as REFADE. There are 1600 malicious executables, and 1600 other benign executables. Therefore, the REFADE base is suitable for learning with artificial intelligence, since both classes of executables have the same amount.
+For the construction of a pattern recognition AI (artificial intelligence), the conventional method used for its training is the use of classes and counter classes of a certain filetype. The designation chosen to refer to the categories was "benign files" for serious and safe applications and "malignant files" for applications that can be a threat to the user. The malwares samples are executables files for Android (.apk). The virtual plages were extracted from databases made avaiable by enthusiastic groups about the study of malwares through the digital plataform VirusShare. It should be noted that all benign executables were submitted to VirusTotal and all were its benign attested by the main commercial antivirus worldwide. The diagnostics, provided by VirusTotal, corresponding to the benign and malware executables are available in the virtual address of the REWEMA database.
+The benign samples were extracted from Playstore, the official shop for Android devices. In addition, databases from others plataforms of benign apps were also used: APKmirror and APKpure. To avoid repeat the samples, were used authoral scripts coded in python. The scrip read the files downloaded and delete its copys.
